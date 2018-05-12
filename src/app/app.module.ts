@@ -61,6 +61,7 @@ export function provideSettings(storage: Storage) {
     User,
     Camera,
     SplashScreen,
+    Camera,
     StatusBar,
     { provide: Settings, useFactory: provideSettings, deps: [Storage] },
     // Keep this to enable Ionic's runtime error handling during development
