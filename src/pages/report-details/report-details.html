@@ -1,0 +1,34 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'REPORT_DETAIL_TITLE' | translate }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+      <div padding>
+      	<ion-row>
+      		<ion-col style="text-align: center">
+      			<img [src]="base64Image" *ngIf="base64Image" height="300 px" width="300 px"/>
+        		<button ion-button color="primary" (click)="takePicture()">Take a Picture</button>
+        	</ion-col>
+        </ion-row>
+        <ion-row>
+        	<ion-col style="text-align: center">
+        		Please describe the issue:
+        	</ion-col>
+        </ion-row>
+        <ion-row>
+        	<ion-col style="text-align: center">
+        		<ion-textarea rows="7" style="border-style: solid"></ion-textarea>
+        	</ion-col>
+        </ion-row>
+        <ion-row>
+        	<ion-col style="text-align: center">
+        		<button ion-button color="primary" (click)="dothing()">Submit Report</button>
+        	</ion-col>
+        </ion-row>
+      </div>
+</ion-content>
