@@ -18,7 +18,7 @@ export class Items {
       {
         "name": "Litter",
         "icon": "trash",
-        "about": "Report litter or improperly diposed trash."
+        "about": "Report litter or improperly disposed trash."
       },
       {
         "name": "Pothole",
@@ -33,12 +33,12 @@ export class Items {
       {
         "name": "Low Lighting",
         "icon": "flash",
-        "about": "Unlit roads, non-functioning lights, or poorly."
+        "about": "Unlit roads, non-functioning lights, etc."
       },
       {
         "name": "Illegal Substances",
         "icon": "medical",
-        "about": "Unlit roads, non-functioning lights, or poorly."
+        "about": "Pills, street drugs, etc."
       }
     ];
 

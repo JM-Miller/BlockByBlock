@@ -8,9 +8,14 @@
 
 
 <ion-content>
-  <form (submit)="doLogin()">
+  <ion-row>
+    <ion-col style="text-align: center">
+      <ion-img width="300" height="100" src="assets/img/logo.png" style="text-align: center"></ion-img>
+    </ion-col>
+  </ion-row>
+  <form (submit)="doLogin()" padding-top="300">
     <ion-list>
-      <!-- <img [src]="././assets/img/logo.png" height="300 px" width="300 px"/> -->
+      
       <ion-item>
         <ion-label fixed>{{ 'EMAIL' | translate }}</ion-label>
         <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
